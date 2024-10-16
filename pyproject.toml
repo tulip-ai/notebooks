@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "notebooks"
+version = "0.1.0"
+description = "Tulip AI's iPython notebooks"
+authors = ["hmgibson23 <gibsonhugo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dspy = "^2.5.9"
+jupyter = "^1.1.1"
+llama-index = "^0.11.17"
+llama-index-vector-stores-postgres = "^0.2.6"
+psycopg2 = "^2.9.9"
+psycopg = "^3.2.3"
+llama-index-llms-huggingface-api = "^0.2.0"
+llama-index-llms-huggingface = "^0.3.5"
+transformers = {extras = ["torch"], version = "^4.45.2"}
+llama-index-embeddings-huggingface = "^0.3.1"
+llama-index-embeddings-instructor = "^0.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
